@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb+srv://mohammed_riaad:riaad123@riaad.lcd4s.mongodb.net/User?retryWrites=true&w=majority",
+    "secret": "mohammedriaad"
+}
