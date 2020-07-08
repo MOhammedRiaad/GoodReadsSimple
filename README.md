@@ -9,15 +9,15 @@
 
 ## JWT for Authentication 
 
--- JWT is now the top recomended authuntication method for `RESTAPI` as for security .
+JWT is now the top recomended authuntication method for `RESTAPI` as for security .
 
 ##  swagger for API documentation  
 
--- swagger was used to provide a documentation and testing for apis before connecting to FrontEnd 
+ swagger was used to provide a documentation and testing for apis before connecting to FrontEnd 
 
 ## ESLint  for providing linting and force coding styles to all files 
 
---eslint is one of the famous ways to lint your javascript files and force code styles 
+eslint is one of the famous ways to lint your javascript files and force code styles 
 
 ## Cors for cross orgin 
 
@@ -25,11 +25,11 @@ to allow all requests to backend api
 
 ## CSV Parser 
 
--- for providing the ability to read the `books.csv` file and make an end point api 
+ for providing the ability to read the `books.csv` file and make an end point api 
 
 ## Express for routing 
 
--- using express provide the ability to make your own routes and link them to front end 
+ using express provide the ability to make your own routes and link them to front end 
 
 
 
