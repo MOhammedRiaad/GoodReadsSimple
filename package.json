@@ -1,7 +1,7 @@
 {
     "name": "mohamedriaadgoodreads",
     "version": "1.0.0",
-    "description": "Node.js + MongoDB API - JWT Authentication - react front",
+    "description": "Node.js + MongoDB API - JWT Authentication - Vuejs front",
     "license": "MIT",
     "repository": {
         "type": "git",
