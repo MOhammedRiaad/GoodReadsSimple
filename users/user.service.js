@@ -4,6 +4,7 @@ const bcrypt = require('bcryptjs');
 const crypto = require("crypto");
 const db = require('_helpers/db');
 
+
 module.exports = {
     authenticate,
     refreshToken,
@@ -11,7 +12,8 @@ module.exports = {
     getAll,
     getById,
     getRefreshTokens,
-    addUser
+    addUser,
+    
 };
 
 async function authenticate({ username, password, ipAddress }) {

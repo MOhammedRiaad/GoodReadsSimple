@@ -5,6 +5,7 @@ const validateRequest = require('_middleware/validate-request');
 const authorize = require('_middleware/authorize')
 const Role = require('_helpers/role');
 const userService = require('./user.service');
+//const books = require('../books/book.controller')
 
 // routes
 router.post('/authenticate', authenticateSchema, authenticate);
@@ -14,7 +15,7 @@ router.get('/', authorize(Role.Admin), getAll);
 router.get('/:id', authorize(), getById);
 router.get('/:id/refresh-tokens', authorize(), getRefreshTokens);
 router.post('/CreateUser', CreateUser);
-
+//router.get('readbooks',readbooks)
 module.exports = router;
 
 function authenticateSchema(req, res, next) {
@@ -117,3 +118,4 @@ function setTokenCookie(res, token)
     };
     res.cookie('refreshToken', token, cookieOptions);
 }
+
