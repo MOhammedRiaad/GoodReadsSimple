@@ -17,7 +17,7 @@
 
 ## ESLint  for providing linting and force coding styles to all files 
 
--- eslint is one of the famous ways to lint your javascript files and force code styles 
+--eslint is one of the famous ways to lint your javascript files and force code styles 
 
 ## Cors for cross orgin 
 
