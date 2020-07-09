@@ -52,7 +52,7 @@ async function addUser({username , firstName , lastName ,role,password  }){
     });
     await user.save();
     return 'user created successfully '
- }else{
+        }else{
             throw 'Username Is found by try another one ';
 
         }

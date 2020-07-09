@@ -31,5 +31,13 @@ to allow all requests to backend api
 
  using express provide the ability to make your own routes and link them to front end 
 
+ to run the project use 
+
+ `npm run start` for normal node server
+
+ `npm run start:dev` for nodemon server
+
+`npm run client` to start the front end  client 
+
 
 
