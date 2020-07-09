@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    container_name: backend 
+    build:
+        context: ./Server  
+    ports: ['4000:4000'] 
+
+ 
+  frontend:
+    container_name: frontend
+    build:
+      context: ./FrontEnd
+    ports:
+      - '8080:8080'
+    environment:  
+      - BACKEND_URL=http://localhost:4000/

@@ -9,14 +9,15 @@
     },
     "scripts": {
         "lint": "eslint",
-        "start": "node ./server.js && npm run client",
-        "start:dev": "nodemon ./server.js",
+        "start": "concurrently \"node ./server.js\" \"npm run client\" ",
+        "start:dev": "concurrently \"nodemon ./server.js\" \"npm run client \" ",
         "client": "nodenv --exec  cd .. && cd FrontEnd && npm run serve"
     },
     "dependencies": {
         "@hapi/joi": "^17.1.1",
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.19.0",
+        "concurrently": "^5.2.0",
         "cookie-parser": "^1.4.5",
         "cors": "^2.8.5",
         "csv-parser": "^2.3.3",
