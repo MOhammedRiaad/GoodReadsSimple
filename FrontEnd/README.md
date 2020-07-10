@@ -27,4 +27,19 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
+## Project Dependacies 
+
+### VueJs :
+  the main frontend frame work used to build the project
+### Vuex 
+the Data store to share the application data between components 
+### Axios 
+To fetch data from the backend api 
+### router
+to make spa and use routing in front end and routing guard
+### bootstarp 
+to make the visual components styles 
+### vuevalidate 
+to validate the requied fileds for login and signup 
+
+
