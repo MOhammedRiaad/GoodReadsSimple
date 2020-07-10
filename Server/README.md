@@ -16,7 +16,7 @@ JWT is now the top recomended authuntication method for `RESTAPI` as for securit
  swagger was used to provide a documentation and testing for apis before connecting to FrontEnd 
 
 ## ESLint  for providing linting and force coding styles to all files 
- 
+  
 eslint is one of the famous ways to lint your javascript files and force code styles 
 
 ## Cors for cross orgin 
